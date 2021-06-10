@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#menu-hero {
+    background-image: url("../img/dogHero.jpg");
+    height: 400px;
+    width: 1400px;
+    margin: auto;
+}
+
+#menu-hero a {
+    float: right;
+    margin: 10px 10px 0px 0px;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+#box-topo {
+    position: relative;
+    width: 750px;
+    height: 300px;
+    background-color: beige;
+    margin: auto;
+    margin-top: -50px;
+    -webkit-box-shadow: -1px 9px 23px -16px #616161; 
+    box-shadow: -1px 9px 23px -16px #616161;
+}
+
+#titulo-sub {
+    text-align: center;
+    padding-top: 2%;
+}
+
+#btn-acoes {
+    display: flex;
+    flex-direction: row;
+    gap: 350px;
+    margin-left: 5%;
+    margin-top: 4%;
+}
+
+#btn-bookmark {
+    float: left;
+    margin-left: 20%;
+}
+
+#num-doacao {
+    gap: 150px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 2%;
+    text-align: center;
+    margin-left: 50px;
+}
+
+#dias-restantes {
+    margin-left: 3%;
+}
